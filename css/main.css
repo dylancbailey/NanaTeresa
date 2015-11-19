@@ -1,3 +1,7 @@
+* {
+  font-family: 'Khula', sans-serif;
+ }
+
 a {
   color: white;
 }
@@ -34,6 +38,7 @@ header {
 
 header a {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .mobile-well {
@@ -41,7 +46,7 @@ header a {
 }
 
 .explore {
-  padding-top: 3px;
+  padding-top: 5px;
   color: white;
 }
 
@@ -50,14 +55,24 @@ ul li .dropdown-link {
   padding: 10px 0;
 }
 
+.main p {
+  font-size: 18px;
+  text-shadow: 1px 0 #111;
+  padding-top: 20px;
+}
+
 hr {
   border-bottom: 3px dashed #bf4f65;
   width: 75%;
   margin-bottom: 40px;
 }
 
+.items img {
+  border-radius: 5%;
+}
+
 .item-padding {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 footer {
@@ -77,6 +92,11 @@ footer .test {
 .footer-nav {
   padding-top: 50px;
 }
+
+.main .well, .items .well {
+  box-shadow: 1px 2px 5px #444;
+}
+
 
 /* Nav Stuff */
 
