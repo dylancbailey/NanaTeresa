@@ -65,13 +65,27 @@ ul li .dropdown-link {
   background: url(../images/testBG.png) repeat;
 }
 
-.main p {
-  font-size: 18px;
+.main-p {
+  font-size: 20px;
   text-shadow: 1px 0 #111;
   padding-top: 20px;
 }
 
-hr {
+.main-h4 {
+  font-weight: 24px;
+  font-weight: bold;
+}
+
+.main-location {
+  font-size: 18px;
+}
+
+.main-divider {
+  border-bottom: 2px dashed #bf4f65;
+  width: 75%;
+}
+
+.site-divider {
   border-bottom: 3px dashed #bf4f65;
   width: 75%;
   margin-top: 25px;
