@@ -62,7 +62,7 @@ ul li .dropdown-link {
 }
 
 .main .main-well, .items .main-well {
-  background: red url(../images/testBG.png) repeat;
+  background: url(../images/testBG.png) repeat;
 }
 
 .main p {
@@ -74,6 +74,7 @@ ul li .dropdown-link {
 hr {
   border-bottom: 3px dashed #bf4f65;
   width: 75%;
+  margin-top: 25px;
   margin-bottom: 40px;
 }
 
@@ -92,11 +93,24 @@ footer {
 
 footer h4 {
   color: white;
+  font-size: 20px;
 }
 
 footer .footer-divider {
   border-bottom: 2px dashed white;
   margin-bottom: 10px;
+}
+
+.footer-ul a {
+  text-decoration: none;
+}
+
+.footer-ul li {
+  margin-bottom: 5px;
+}
+
+.footer-ul a:hover {
+  color: rgba(237, 72, 113, 1);
 }
 
 .footer-nav {
