@@ -1,5 +1,6 @@
 * {
   font-family: 'Khula', sans-serif;
+  letter-spacing: 1px;
  }
 
 a {
@@ -46,13 +47,19 @@ header a {
 }
 
 .explore {
-  padding-top: 5px;
+  padding-top: 3px;
   color: white;
+  font-size: 20px;
 }
 
 ul li .dropdown-link {
   color: white;
-  padding: 10px 0;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.main .main-well, .items .main-well {
+  background: red url(../images/testBG.png) repeat;
 }
 
 .main p {
@@ -84,7 +91,7 @@ footer h4 {
   color: white;
 }
 
-footer .test {
+footer .footer-divider {
   border-bottom: 2px dashed white;
   margin-bottom: 10px;
 }
@@ -123,9 +130,9 @@ footer .test {
 
 /* Bootstrap Stuff */
 
-.main-well {
+/*.main-well {
   background: #E4C3A4;
-}
+}*/
 
 .dropdown-menu {
   left: 50%;
@@ -138,6 +145,6 @@ footer .test {
 
 @media screen and (min-width: 991px) {
   .item-padding {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
