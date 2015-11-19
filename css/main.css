@@ -1,0 +1,119 @@
+a {
+  color: white;
+}
+
+body {
+  background: url(../images/symphony.png) repeat;
+}
+
+#logo-navbar-middle {
+  width: 150px;
+  margin: 0 20px;
+}
+
+.home-button {
+  margin-left: 2%;
+}
+
+.about-button {
+  margin-right: 3%;
+}
+
+.menu-button {
+  margin-left: 3%;
+}
+
+span {
+  text-align: center;
+}
+
+header {
+  background: url(../images/top.png) top repeat;
+  height: 200px;
+}
+
+header a {
+  font-size: 18px;
+}
+
+.mobile-well {
+  background: #ef92a4;
+  border-top: 3px dashed rgba(237, 72, 113, 0.5);
+  border-bottom: 3px dashed rgba(237, 72, 113, 0.5);
+}
+
+.explore {
+  color: white;
+}
+
+hr {
+  border-bottom: 3px dashed #bf4f65;
+  width: 75%;
+  margin-bottom: 40px;
+}
+
+.item-padding {
+  padding-bottom: 25px;
+}
+
+footer {
+  background: url(../images/bottom.png) top repeat;
+  height: 200px;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer .test {
+  border-bottom: 2px dashed white;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  padding-top: 50px;
+}
+
+/* Nav Stuff */
+
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary .navbar-nav > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+  color: rgba(237, 72, 113, 0.9);
+  border: 3px dashed rgba(199, 90, 111, 0.8);
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background: rgba(0,0,0,0);
+  text-decoration: none;
+  color: white;
+}
+
+/* Bootstrap Stuff */
+
+.main-well {
+  background: #E4C3A4;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+  width: 50%;
+  background-color: #ef92a4;
+}
+
+@media screen and (min-width: 991px) {
+  .item-padding {
+    padding-bottom: 0;
+  }
+}
