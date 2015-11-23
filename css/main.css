@@ -13,11 +13,11 @@ body {
 
 #logo-navbar-middle {
   width: 150px;
-  margin: 0 20px;
+  margin: 0 2%;
 }
 
 .home-button {
-  margin-left: 2.5%;
+  margin-left: 2%;
 }
 
 .about-button {
@@ -177,5 +177,20 @@ footer .footer-divider {
 @media screen and (min-width: 991px) {
   .item-padding {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-p {
+    font-size: 18px;
+  }
+  .img-thumbnail {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-thumbnail {
+    margin-top: 4%;
   }
 }
